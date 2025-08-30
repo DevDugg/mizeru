@@ -10,7 +10,7 @@ const Container = ({ children, className, parentClassName }: IContainer) => {
   return (
     <div
       className={cn(
-        "container mx-auto px-20 max-w-[680px] w-full border-x border-dashed",
+        "container mx-auto px-20 max-w-[680px] w-full border-x border-dashed border-border",
         parentClassName,
       )}
     >

@@ -37,7 +37,7 @@ const Button = ({
     return (
       <Link
         href={href ?? ""}
-        className={cn("inline-block px-4 py-3 rounded-lg border border-border", className)}
+        className={cn("inline-block px-4 py-3 rounded-lg border border-border w-fit", className)}
         onClick={onClick}
       >
         {children}
@@ -47,7 +47,7 @@ const Button = ({
   return (
     <button
       type={type ?? "button"}
-      className={cn("inline-block px-4 py-3 rounded-lg border border-border", className)}
+      className={cn("inline-block px-4 py-3 rounded-lg border border-border w-fit", className)}
       onClick={onClick}
     >
       {children}
